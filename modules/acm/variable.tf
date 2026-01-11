@@ -14,14 +14,14 @@ variable "san_domains" {
 variable "route53_zone_id" {
   description = "Route 53 Hosted Zone ID"
   type        = string
-  default     = "Z06430492JAME30991NR
-" # Replace with actual Route 53 Zone ID
+  default     = "Z06430492JAME30991NR"
+  # Replace with actual Route 53 Zone ID
 }
 
 variable "tags" {
   description = "Common tags for the cluster resources"
   type        = map(string)
-  default     = {
+  default = {
     env       = "dev",
     terraform = "true"
   }
