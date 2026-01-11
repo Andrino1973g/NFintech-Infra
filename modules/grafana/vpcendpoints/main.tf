@@ -35,7 +35,7 @@ resource "aws_security_group" "allow_tls_grafana" {
 
 resource "aws_vpc_endpoint" "prometheus" {
   vpc_id            = var.vpc_id
-  provider          = aws.us-east-2
+  provider          = aws.us-east-1
   service_name      = "com.amazonaws.us-east-2.aps-workspaces"
   vpc_endpoint_type = "Interface"
 
