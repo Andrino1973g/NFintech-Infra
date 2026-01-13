@@ -5,7 +5,7 @@ Terraform configuration files to provision an EKS cluster on AWS.
 
 
 
-# Deploying container insight for eks monitoring
+# Deploying container insight for eks monitoring#
 
 aws iam attach-role-policy \
 --role-name my-worker-node-role \
