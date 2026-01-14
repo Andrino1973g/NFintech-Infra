@@ -125,7 +125,7 @@ resource "aws_eip" "eks_client_eip" {
 }
 
 
-#############################
+###################################
 # Security Group for EKS Client Node
 #############################resource "aws_security_group" "eks_client_sg" {
 resource "aws_security_group" "eks_client_sg" {
