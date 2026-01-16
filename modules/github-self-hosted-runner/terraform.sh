@@ -76,7 +76,7 @@ sudo apt update
 sudo apt install -y wget tar git openjdk-17-jdk
 
 # Define Maven version
-MAVEN_VERSION=3.9.11
+MAVEN_VERSION=3.9.12
 MAVEN_DIR=/opt/maven
 MAVEN_ARCHIVE=apache-maven-$MAVEN_VERSION-bin.tar.gz
              
