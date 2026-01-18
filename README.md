@@ -212,7 +212,7 @@ stage('Deploy') {
         if ((params.ACTION ?: 'apply').toLowerCase() == 'destroy') {
           sh 'terraform destroy -auto-approve -lock=false -input=false'
         } else {
-          sh 'terraform apply -auto-approve -lock=false -input=false'.  #
+          sh 'terraform apply -auto-approve -lock=false -input=false'.  
         }
       }
     }
